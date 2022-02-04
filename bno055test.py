@@ -1,6 +1,9 @@
 # Terpulence II Flight Computer - BNO055 Test
 # Author: Garrett Alessandrini
 
+# WARNING: DO NOT FORGET TO ENABLE CLOCK STRETCHING
+# https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/i2c-clock-stretching
+
 import time
 import datetime
 import board
